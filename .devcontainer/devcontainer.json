@@ -10,5 +10,6 @@
   "postCreateCommand": {
     "install cli dependencies": "cd cli && npm install",
     "install web dependencies": "cd web && npm install"
-  }
+  },
+  "forwardPorts": [5173]
 }
