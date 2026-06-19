@@ -37,6 +37,7 @@
 			case 'visual-studio':
 			case 'vs-code':
 			case 'xcode':
+			case 'zed':
 				return 'editor';
 			case 'wallpaper-block-wave':
 			case 'wallpaper-burst':
