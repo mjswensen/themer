@@ -7,6 +7,10 @@
       "extensions": ["esbenp.prettier-vscode", "svelte.svelte-vscode"]
     }
   },
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/copilot-cli:1": {}
+  },
   "postCreateCommand": {
     "install cli dependencies": "cd cli && npm install",
     "install web dependencies": "cd web && npm install"
