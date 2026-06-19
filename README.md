@@ -351,6 +351,7 @@ export default template;
 - [`visual-studio`](https://github.com/mjswensen/themer/tree/main/cli/src/template/visual-studio.ts)
 - [`vs-code`](https://github.com/mjswensen/themer/tree/main/cli/src/template/vs-code.ts)
 - [`xcode`](https://github.com/mjswensen/themer/tree/main/cli/src/template/xcode.ts)
+- [`zed`](https://github.com/mjswensen/themer/tree/main/cli/src/template/zed.ts)
 
 ### Other apps
 
