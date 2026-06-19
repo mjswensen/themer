@@ -36,6 +36,7 @@ import wallpaperShirts from './wallpaper-shirts.js';
 import wallpaperTriangles from './wallpaper-triangles.js';
 import warp from './warp.js';
 import windowsTerminal from './windows-terminal.js';
+import zed from './zed.js';
 import wox from './wox.js';
 import xcode from './xcode.js';
 import xresources from './xresources.js';
@@ -81,6 +82,7 @@ const BUILT_IN_TEMPLATE_IDENTIFIERS = [
   'wox',
   'xcode',
   'xresources',
+  'zed',
 ] as const;
 
 export type BuiltInTemplate = (typeof BUILT_IN_TEMPLATE_IDENTIFIERS)[number];
@@ -172,6 +174,8 @@ export function resolveTemplate(
       return xcode;
     case 'xresources':
       return xresources;
+    case 'zed':
+      return zed;
     default:
       return template;
   }
