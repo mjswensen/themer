@@ -36,10 +36,10 @@ import wallpaperShirts from './wallpaper-shirts.js';
 import wallpaperTriangles from './wallpaper-triangles.js';
 import warp from './warp.js';
 import windowsTerminal from './windows-terminal.js';
-import zed from './zed.js';
 import wox from './wox.js';
 import xcode from './xcode.js';
 import xresources from './xresources.js';
+import zed from './zed.js';
 
 const BUILT_IN_TEMPLATE_IDENTIFIERS = [
   'alacritty',
